@@ -14,7 +14,7 @@ public class testrotate : MonoBehaviour
     void Update()
     {
         // Rotate the object around its local X axis at 1 degree per second
-        transform.Rotate(210*Time.deltaTime, 0, 0);
+        transform.Rotate(250*Time.deltaTime, 0, 0);
 
         // ...also rotate around the World's Y axis
         transform.Rotate(0, 200*Time.deltaTime, 0, Space.World);
